@@ -3,17 +3,14 @@ import sqlite3
 import tkinter as tk
 from tkinter import messagebox, ttk
 import datetime
-<<<<<<< Updated upstream
-=======
 import playtest_db
 from playtest_db import ensure_tag
->>>>>>> Stashed changes
 
 DB_FILE = "playtest_history.sqlite3"
 # Action types available in the dropdown and their categories
 BIG_ACTIONS = ["Advance", "Embark", "Disembark", "Salvo", "Capture", "OverWatch", "OverWatch Shot"]
-SMALL_ACTIONS = ["Skip", "Deploy", "Move", "Consolidate", "Control", "Shot"]
-SPECIAL_ACTIONS = ["Deploy", "OverWatch Shot"]  # These actions don't increase turn counter
+SMALL_ACTIONS = ["Skip", "Deploy", "Move", "Consolidate", "Control", "Shot", "Check Shot"]
+SPECIAL_ACTIONS = ["Deploy", "OverWatch Shot", "Check Shot"]  # These actions don't increase turn counter
 ACTION_TYPES = BIG_ACTIONS + SMALL_ACTIONS
 
 def calculate_turn_number(actions):
@@ -262,10 +259,6 @@ def add_action(event=None, form_num=1):
             tags=tags
         )
         
-<<<<<<< Updated upstream
-        # Only clear notes field, keep the rest
-        entry_notes.delete(0, tk.END)
-=======
         # Switch player for small actions
         if current_action in SMALL_ACTIONS:
             # Get list of players and find current index
@@ -286,7 +279,6 @@ def add_action(event=None, form_num=1):
             action_type_var.set('')
         else:
             action_type_var2.set('')
->>>>>>> Stashed changes
         
         # Refresh the actions list if this action belongs to the currently selected session
         selected = sessions_tree.selection()
@@ -394,8 +386,6 @@ def show_add_session_dialog():
 add_session_btn = tk.Button(session_buttons_frame, text="Add Session", command=show_add_session_dialog)
 add_session_btn.pack(side=tk.LEFT, padx=2)
 
-<<<<<<< Updated upstream
-=======
 # Edit Action Dialog
 class EditActionDialog:
     def __init__(self, parent, action_data):
@@ -466,7 +456,6 @@ class EditActionDialog:
     def cancel(self):
         self.dialog.destroy()
 
->>>>>>> Stashed changes
 # Actions list
 actions_frame = tk.LabelFrame(lists_frame, text="Actions")
 actions_frame.pack(side="right", fill="both", expand=True, padx=5)
@@ -492,9 +481,6 @@ actions_tree.column("notes", width=250, minwidth=100)
 
 actions_tree.pack(fill="both", expand=True)
 
-<<<<<<< Updated upstream
-# Add Delete Action button
-=======
 # Add double-click handler for action editing
 def on_action_double_click(event):
     selected = actions_tree.selection()
@@ -574,7 +560,6 @@ def on_action_double_click(event):
         # Refresh the actions list
         on_session_select(None)
 
->>>>>>> Stashed changes
 def delete_action():
     selected = actions_tree.selection()
     if not selected:
@@ -605,11 +590,6 @@ def delete_action():
 delete_action_btn = tk.Button(actions_frame, text="Delete Action", command=delete_action)
 delete_action_btn.pack(pady=5)
 
-<<<<<<< Updated upstream
-# Add Session frame
-frame1 = tk.LabelFrame(root, text="Add Session")
-frame1.pack(fill="x", padx=5, pady=5)
-=======
 # Bind double-click for editing
 actions_tree.bind("<Double-1>", on_action_double_click)
 
@@ -620,7 +600,6 @@ class SessionDialog:
         self.dialog.title("Add Session")
         self.dialog.transient(parent)
         self.dialog.grab_set()
->>>>>>> Stashed changes
 
         # Center the dialog
         window_width = 300
