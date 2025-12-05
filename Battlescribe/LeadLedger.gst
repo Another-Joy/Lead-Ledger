@@ -7,10 +7,10 @@
   <profileTypes>
     <profileType id="unit-profile-id" name="Unit">
       <characteristicTypes>
-        <characteristicType id="movement" name="M"/>
-        <characteristicType id="armor" name="A"/>
-        <characteristicType id="control" name="C"/>
-        <characteristicType id="health" name="H"/>
+        <characteristicType id="movement" name="Mov"/>
+        <characteristicType id="armor" name="Arm"/>
+        <characteristicType id="control" name="Con"/>
+        <characteristicType id="health" name="HP"/>
       </characteristicTypes>
     </profileType>
     <profileType id="weapon-profile-id" name="Weapons">
@@ -78,6 +78,11 @@ The front arc is the tile directly ahead and any tiles at least partially within
     </rule>
     <rule id="5475-29e2-85c2-9b73" name="Indirect Fire" hidden="false">
       <description>Indirect Fire weapons do not need LoS to shoot at targets.</description>
+    </rule>
+    <rule id="5475-29e2-85c2-9b74" name="Loading X" hidden="false">
+      <description>Loading weapons have an Ammo characteristic (X), and consume 1 Ammo each time they shoot.
+
+At the beginning of each cycle, restore all Loading weapons' Ammo to full.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

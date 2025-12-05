@@ -27,16 +27,22 @@
       <profiles>
         <profile id="893a-1dd3-28b1-c870" name="Rookie Squad" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">2</characteristic>
-            <characteristic name="A" typeId="armor">N</characteristic>
-            <characteristic name="C" typeId="control">2</characteristic>
-            <characteristic name="H" typeId="health">4</characteristic>
+            <characteristic name="Mov" typeId="movement">2</characteristic>
+            <characteristic name="Arm" typeId="armor">N</characteristic>
+            <characteristic name="Con" typeId="control">2</characteristic>
+            <characteristic name="HP" typeId="health">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="1192-d91c-3cc7-71a4" name="5.56mm Rifle" hidden="false" targetId="e7ca-3603-9035-cdb0" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="ed90-9535-98b1-e51d" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="1eca-2fc1-8d45-d5b0" name="5.56mm Rifle" hidden="false" targetId="e7ca-3603-9035-cdb0" type="profile"/>
+            <infoLink id="a13a-d849-cb15-930f" name="Assault" hidden="false" targetId="5475-29e2-85c2-9a76" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="fc59-ef96-63b9-d5a4" name="Abilities" hidden="false"/>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="e7d9-e330-fcc6-5a3b" name="Infantry" hidden="false" targetId="inf" primary="true"/>
       </categoryLinks>
@@ -49,16 +55,23 @@
       <profiles>
         <profile id="33e8-c655-490b-4efa" name="Longshot Duo" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">2</characteristic>
-            <characteristic name="A" typeId="armor">N</characteristic>
-            <characteristic name="C" typeId="control">0</characteristic>
-            <characteristic name="H" typeId="health">2</characteristic>
+            <characteristic name="Mov" typeId="movement">2</characteristic>
+            <characteristic name="Arm" typeId="armor">N</characteristic>
+            <characteristic name="Con" typeId="control">1</characteristic>
+            <characteristic name="HP" typeId="health">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="8a5d-4f70-5115-438a" name=".300 Sniper" hidden="false" targetId="a1a9-9262-6ab3-16b4" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="f4af-5d12-7c87-7b45" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="d57f-16bf-1e9d-10c5" name="Precision" hidden="false" targetId="5475-29e2-85c2-9b79" type="rule"/>
+            <infoLink id="bb6c-e73c-7d4c-0579" name="Long" hidden="false" targetId="5475-29e2-85c2-9a89" type="rule"/>
+            <infoLink id="8037-2ba6-d692-2478" name=".300 Sniper" hidden="false" targetId="a1a9-9262-6ab3-16b4" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="6556-b335-6a8a-b2d1" name="Abilities" hidden="false"/>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="f563-ff11-c50d-0365" name="New CategoryLink" hidden="false" targetId="inf" primary="true"/>
       </categoryLinks>
@@ -71,16 +84,22 @@
       <profiles>
         <profile id="6100-8854-e217-ee21" name="Wildcats" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">2</characteristic>
-            <characteristic name="A" typeId="armor">N</characteristic>
-            <characteristic name="C" typeId="control">1</characteristic>
-            <characteristic name="H" typeId="health">2</characteristic>
+            <characteristic name="Mov" typeId="movement">2</characteristic>
+            <characteristic name="Arm" typeId="armor">N</characteristic>
+            <characteristic name="Con" typeId="control">1</characteristic>
+            <characteristic name="HP" typeId="health">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="2ffe-f9b9-6295-2121" name="9mm SMG" hidden="false" targetId="e8ac-6290-a0d7-9902" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="1ba2-56e6-05bd-f4fc" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="3eae-fe89-3692-4257" name="9mm SMG" hidden="false" targetId="e8ac-6290-a0d7-9902" type="profile"/>
+            <infoLink id="187e-810e-e37b-6166" name="Assault" hidden="false" targetId="5475-29e2-85c2-9a76" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="462b-cf1b-2b63-1dcd" name="Abilities" hidden="false"/>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="5063-1969-cd1c-72dd" name="New CategoryLink" hidden="false" targetId="inf" primary="true"/>
       </categoryLinks>
@@ -93,17 +112,25 @@
       <profiles>
         <profile id="25a7-c029-ff65-dc87" name="M8 Coyote" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">4</characteristic>
-            <characteristic name="A" typeId="armor">L</characteristic>
-            <characteristic name="C" typeId="control">1</characteristic>
-            <characteristic name="H" typeId="health">3</characteristic>
+            <characteristic name="Mov" typeId="movement">4</characteristic>
+            <characteristic name="Arm" typeId="armor">L</characteristic>
+            <characteristic name="Con" typeId="control">1</characteristic>
+            <characteristic name="HP" typeId="health">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="bdfa-b401-c2a3-99e4" name="7.62mm MG" hidden="false" targetId="2994d492-dd88-49d3-9eaa" type="profile"/>
-        <infoLink id="11ff-0ff3-3a30-f223" name="Brittle" hidden="false" targetId="6851-f823-5b74-bebc" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="bedf-41e1-bf14-55b7" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="52a9-0ca3-6ced-c36b" name="7.62mm MG" hidden="false" targetId="2994d492-dd88-49d3-9eaa" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="0685-8788-e4c8-9979" name="Abilities" hidden="false">
+          <infoLinks>
+            <infoLink id="bbbc-2231-ebe1-dd0a" name="Brittle" hidden="false" targetId="6851-f823-5b74-bebc" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="3a1f-b9d8-a5b2-9248" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
         <categoryLink id="6b0a-c9b0-8e64-b610" name="New CategoryLink" hidden="false" targetId="b9a5-fc14-d873-704f" primary="false"/>
@@ -117,17 +144,25 @@
       <profiles>
         <profile id="9d8a-fab0-cbbd-b332" name="M11 Jackal" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">3</characteristic>
-            <characteristic name="A" typeId="armor">L</characteristic>
-            <characteristic name="C" typeId="control">0</characteristic>
-            <characteristic name="H" typeId="health">4</characteristic>
+            <characteristic name="Mov" typeId="movement">3</characteristic>
+            <characteristic name="Arm" typeId="armor">L</characteristic>
+            <characteristic name="Con" typeId="control">0</characteristic>
+            <characteristic name="HP" typeId="health">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="b681-0ed8-5f9d-f582" name="20×102mm AC" hidden="false" targetId="1c6f4c1d-4953-420e-b724" type="profile"/>
-        <infoLink id="0cc4-2427-26af-b81d" name="Transport" hidden="false" targetId="8956-be22-469d-2391" type="rule"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="de8a-304a-e380-e4c4" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="c305-0663-b801-fad2" name="20×102mm AC" hidden="false" targetId="1c6f4c1d-4953-420e-b724" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="cc59-8e66-3cf2-db08" name="Abilities" hidden="false">
+          <infoLinks>
+            <infoLink id="c329-eb53-ed26-e831" name="Transport" hidden="false" targetId="8956-be22-469d-2391" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="4c96-4344-4bc1-e6b1" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
         <categoryLink id="876b-fbad-c143-75b5" name="APC" hidden="false" targetId="apc" primary="false"/>
@@ -141,16 +176,22 @@
       <profiles>
         <profile id="2ba9-7d6f-b6fe-7f6d" name="M14 Puma" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">3</characteristic>
-            <characteristic name="A" typeId="armor">L</characteristic>
-            <characteristic name="C" typeId="control">0</characteristic>
-            <characteristic name="H" typeId="health">3</characteristic>
+            <characteristic name="Mov" typeId="movement">3</characteristic>
+            <characteristic name="Arm" typeId="armor">L</characteristic>
+            <characteristic name="Con" typeId="control">0</characteristic>
+            <characteristic name="HP" typeId="health">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="7d71-ffe8-9041-f17d" name="105mm HEAT Assault" hidden="false" targetId="cb79fd41-dab3-4eb6-a27b" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="dff5-bbcd-5e95-1b7a" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="c938-b9bc-7839-d1ef" name="105mm HEAT Assault" hidden="false" targetId="cb79fd41-dab3-4eb6-a27b" type="profile"/>
+            <infoLink id="0bbb-55b1-eec8-a9ba" name="Assault" hidden="false" targetId="5475-29e2-85c2-9a76" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="4c3e-c188-f36b-9636" name="Abilities" hidden="false"/>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="8a52-1732-596b-d061" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
         <categoryLink id="ed19-a157-735b-d3b6" name="Light Tank" hidden="false" targetId="b43b-a848-fcd3-f503" primary="false"/>
@@ -164,17 +205,26 @@
       <profiles>
         <profile id="29ba-da7d-0d31-5ed4" name="M16 Badger" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">3</characteristic>
-            <characteristic name="A" typeId="armor">M</characteristic>
-            <characteristic name="C" typeId="control">0</characteristic>
-            <characteristic name="H" typeId="health">3</characteristic>
+            <characteristic name="Mov" typeId="movement">3</characteristic>
+            <characteristic name="Arm" typeId="armor">M</characteristic>
+            <characteristic name="Con" typeId="control">0</characteristic>
+            <characteristic name="HP" typeId="health">3</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="0f91-d26d-0f57-42e5" name="40mm AC (HE)" hidden="false" targetId="1693ba3d-7a07-4ec1-8d4f" type="profile"/>
-        <infoLink id="0675-77fd-14ea-0962" name="NERA Armor" hidden="false" targetId="6851-f823-5b74-bebb" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="102f-b4e7-d400-87ab" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="203f-6678-8e91-f274" name="40mm AC (HE)" hidden="false" targetId="1693ba3d-7a07-4ec1-8d4f" type="profile"/>
+            <infoLink id="b49f-caa5-6def-ffb6" name="HE" hidden="false" targetId="5475-29e2-85c2-9b71" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="69a1-dddf-d60a-e2af" name="Abilities" hidden="false">
+          <infoLinks>
+            <infoLink id="abe1-582d-d110-a8ba" name="NERA Armor" hidden="false" targetId="6851-f823-5b74-bebb" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="81be-e322-090a-f750" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
         <categoryLink id="6a0b-e8a0-223b-b828" name="Light Tank" hidden="false" targetId="b43b-a848-fcd3-f503" primary="false"/>
@@ -188,17 +238,23 @@
       <profiles>
         <profile id="19f6-c8a6-4fe9-b7a4" name="M24 Grizzly" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">2</characteristic>
-            <characteristic name="A" typeId="armor">M</characteristic>
-            <characteristic name="C" typeId="control">0</characteristic>
-            <characteristic name="H" typeId="health">4</characteristic>
+            <characteristic name="Mov" typeId="movement">2</characteristic>
+            <characteristic name="Arm" typeId="armor">M</characteristic>
+            <characteristic name="Con" typeId="control">0</characteristic>
+            <characteristic name="HP" typeId="health">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="8d9b-311c-d0e5-d932" name="50mm AC" hidden="false" targetId="9e514a8e-7305-4de0-962f" type="profile"/>
-        <infoLink id="31ae-c647-c07a-d18d" name="7.62mm MG" hidden="false" targetId="2994d492-dd88-49d3-9ebe" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="c354-9836-048c-bdcc" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="4294-f823-101d-5572" name="50mm Linked AC" hidden="false" targetId="9e514a8e-7305-4de0-962f" type="profile"/>
+            <infoLink id="9882-977c-e889-2e67" name="7.62mm Linked MG" hidden="false" targetId="2994d492-dd88-49d3-9ebe" type="profile"/>
+            <infoLink id="9b03-b9a5-0943-a5f0" name="Linked" hidden="false" targetId="5475-29e2-85c2-9b45" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="1056-4be9-bf6a-b2b0" name="Abilities" hidden="false"/>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="4aff-ae6d-9db9-2bca" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
         <categoryLink id="4a6f-f2f1-2851-93f4" name="IFV" hidden="false" targetId="201c-1576-d588-aad5" primary="false"/>
@@ -212,21 +268,31 @@
       <profiles>
         <profile id="0bd2-749c-7d8c-deb1" name="M29 Vindicator" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">2</characteristic>
-            <characteristic name="A" typeId="armor">M</characteristic>
-            <characteristic name="C" typeId="control">0</characteristic>
-            <characteristic name="H" typeId="health">2</characteristic>
+            <characteristic name="Mov" typeId="movement">2</characteristic>
+            <characteristic name="Arm" typeId="armor">M</characteristic>
+            <characteristic name="Con" typeId="control">0</characteristic>
+            <characteristic name="HP" typeId="health">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="d25e-dca2-609d-fece" name="130mm APFSDS" hidden="false" targetId="45aba4d6-8bfc-4393-bab0" type="profile"/>
-        <infoLink id="3d6f-7fb5-944d-6c78" name="NERA Armor" hidden="false" targetId="6851-f823-5b74-bebb" type="profile"/>
-        <infoLink id="e96a-45c4-c30c-8b9e" name="Sloped Armor" hidden="false" targetId="58ec-2f03-cfde-51bd" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="0d3e-7466-079e-ce70" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="1cc4-c648-51ab-6398" name="130mm APFSDS" hidden="false" targetId="45aba4d6-8bfc-4393-bab0" type="profile"/>
+            <infoLink id="2475-58ad-8e18-42c0" name="Long" hidden="false" targetId="5475-29e2-85c2-9a89" type="rule"/>
+            <infoLink id="2fb5-d144-c6ea-872d" name="Frontal" hidden="false" targetId="5475-29e2-85c2-9b76" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="4e4a-e1a1-2058-9e61" name="Abilities" hidden="false">
+          <infoLinks>
+            <infoLink id="5e26-becd-0527-2a33" name="NERA Armor" hidden="false" targetId="6851-f823-5b74-bebb" type="profile"/>
+            <infoLink id="a4c1-eae6-92f5-22df" name="Sloped Armor" hidden="false" targetId="58ec-2f03-cfde-51bd" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="1b4a-d5e9-3369-e4ff" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
-        <categoryLink id="16b1-044f-8231-e3b6" name="SPG" hidden="false" targetId="4972-4598-7035-2b18" primary="false"/>
+        <categoryLink id="16b1-044f-8231-e3b6" name="Tank Hunter" hidden="false" targetId="4972-4598-7035-2b18" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Mats" typeId="mats-cost" value="60.0"/>
@@ -237,17 +303,25 @@
       <profiles>
         <profile id="4c3a-df06-daaa-e68e" name="M51 Bison" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">2</characteristic>
-            <characteristic name="A" typeId="armor">H</characteristic>
-            <characteristic name="C" typeId="control">0</characteristic>
-            <characteristic name="H" typeId="health">5</characteristic>
+            <characteristic name="Mov" typeId="movement">2</characteristic>
+            <characteristic name="Arm" typeId="armor">H</characteristic>
+            <characteristic name="Con" typeId="control">0</characteristic>
+            <characteristic name="HP" typeId="health">5</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="804d-6990-b5be-4327" name="105mm HEAT" hidden="false" targetId="cb79fd41-dab3-4eb6-a27a" type="profile"/>
-        <infoLink id="776d-3a1c-e83a-bc46" name="Slat Armor" hidden="false" targetId="58ec-2f03-cfde-51ba" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="781e-cd57-52e3-2353" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="0b6a-6eda-9330-5cd4" name="105mm HEAT" hidden="false" targetId="cb79fd41-dab3-4eb6-a27a" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="503d-49f1-2b2d-c374" name="Abilities" hidden="false">
+          <infoLinks>
+            <infoLink id="03c1-ebea-0c86-6d54" name="Slat Armor" hidden="false" targetId="58ec-2f03-cfde-51ba" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="b956-e247-b0df-2a85" name="New CategoryLink" hidden="false" targetId="veh" primary="true"/>
         <categoryLink id="3c14-8018-c181-38f5" name="MBT" hidden="false" targetId="dc81-ab91-495d-0042" primary="false"/>
@@ -261,16 +335,24 @@
       <profiles>
         <profile id="4c3a-df06-daaa-e682" name="M60 Thunderbolt" hidden="false" typeId="unit-profile-id" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="movement">1</characteristic>
-            <characteristic name="A" typeId="armor">L</characteristic>
-            <characteristic name="C" typeId="control">0</characteristic>
-            <characteristic name="H" typeId="health">2</characteristic>
+            <characteristic name="Mov" typeId="movement">1</characteristic>
+            <characteristic name="Arm" typeId="armor">L</characteristic>
+            <characteristic name="Con" typeId="control">0</characteristic>
+            <characteristic name="HP" typeId="health">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="804d-6990-b5be-4323" name="155mm ART" hidden="false" targetId="cb79fd41-dab3-4eb6-a271" type="profile"/>
-      </infoLinks>
+      <infoGroups>
+        <infoGroup id="1175-7bfa-a048-74f3" name="Weapons" hidden="false">
+          <infoLinks>
+            <infoLink id="bd38-b5ee-c63f-c65d" name="155mm ART" hidden="false" targetId="cb79fd41-dab3-4eb6-a271" type="profile"/>
+            <infoLink id="3d81-4a9f-b61e-60cc" name="Indirect Fire" hidden="false" targetId="5475-29e2-85c2-9b73" type="rule"/>
+            <infoLink id="5e0d-2256-80e8-2be3" name="Blast" hidden="false" targetId="5475-29e2-85c2-9b72" type="rule"/>
+            <infoLink id="5e0d-2256-80e8-2b34" name="Loading X" hidden="false" targetId="5475-29e2-85c2-9b74" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="2cd8-b705-e867-3ed5" name="Abilities" hidden="false"/>
+      </infoGroups>
       <categoryLinks>
         <categoryLink id="b956-e247-b0df-2a88" name="Sup" hidden="false" targetId="sup" primary="true"/>
         <categoryLink id="3c14-8018-c181-38f8" name="Art" hidden="false" targetId="b9a5-fc14-d873-7045" primary="false"/>
@@ -304,7 +386,7 @@
         <characteristic name="Keywords" typeId="weapon-keywords">HE</characteristic>
       </characteristics>
     </profile>
-    <profile id="9e514a8e-7305-4de0-962f" name="50mm AC" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+    <profile id="9e514a8e-7305-4de0-962f" name="50mm Linked AC" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
       <characteristics>
         <characteristic name="R" typeId="weapon-range">2</characteristic>
         <characteristic name="N" typeId="weapon-none">4-</characteristic>
@@ -337,7 +419,7 @@
         <characteristic name="Keywords" typeId="weapon-keywords"/>
       </characteristics>
     </profile>
-    <profile id="cb79fd41-dab3-4eb6-a27b" name="105mm HEAT Assault" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
+    <profile id="cb79fd41-dab3-4eb6-a27b" name="105mm Assault HEAT" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
       <characteristics>
         <characteristic name="R" typeId="weapon-range">2</characteristic>
         <characteristic name="N" typeId="weapon-none">NA</characteristic>
@@ -405,13 +487,13 @@
     </profile>
     <profile id="cb79fd41-dab3-4eb6-a271" name="155mm ART" hidden="false" typeId="weapon-profile-id" typeName="Weapons">
       <characteristics>
-        <characteristic name="R" typeId="weapon-range">8</characteristic>
+        <characteristic name="R" typeId="weapon-range">5-8</characteristic>
         <characteristic name="N" typeId="weapon-none">9-</characteristic>
         <characteristic name="L" typeId="weapon-light">5+</characteristic>
         <characteristic name="M" typeId="weapon-medium">9+</characteristic>
         <characteristic name="H" typeId="weapon-heavy">13+</characteristic>
         <characteristic name="F" typeId="weapon-fortification">2</characteristic>
-        <characteristic name="Keywords" typeId="weapon-keywords">Indirect Fire, Blast</characteristic>
+        <characteristic name="Keywords" typeId="weapon-keywords">Indirect Fire, Blast, Loading 2</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
