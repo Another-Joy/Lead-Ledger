@@ -8,9 +8,9 @@ from playtest_db import ensure_tag
 
 DB_FILE = "playtest_history.sqlite3"
 # Action types available in the dropdown and their categories
-BIG_ACTIONS = ["Advance", "Embark", "Disembark", "Salvo", "Capture", "OverWatch", "OverWatch Shot"]
-SMALL_ACTIONS = ["Skip", "Deploy", "Move", "Consolidate", "Control", "Shot", "Check Shot"]
-SPECIAL_ACTIONS = ["Deploy", "OverWatch Shot", "Check Shot"]  # These actions don't increase turn counter
+BIG_ACTIONS = ["Advance", "Embark", "Disembark", "Salvo", "Conquer", "OverWatch", "OverWatch Shot"]
+SMALL_ACTIONS = ["Skip", "Deploy", "Move", "Consolidate", "Control", "Shot", "Damage Check"]
+SPECIAL_ACTIONS = ["Deploy", "OverWatch Shot", "Damage Check"]  # These actions don't increase turn counter
 ACTION_TYPES = BIG_ACTIONS + SMALL_ACTIONS
 
 def calculate_turn_number(actions):
